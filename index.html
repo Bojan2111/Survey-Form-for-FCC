@@ -1,0 +1,75 @@
+55<!--
+	Build a Survey Form project with FreeCodeCamp, done by Bojan Adzic aka Coder_Owl
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="proj.css">
+</head>
+<body>
+	<main id="main">
+		<header>
+			<h1 id="title">Motherhood Survey</h1>
+			<p id="description">Whether you're present or future mother, this survey helps us to deliver the most necessary products for you and your family</p>
+		</header>
+		<form id="survey-form">
+			<label for="name" id="name-label">Full Name:</label>
+			<input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+			<label for="email" id="email-label">Email address:</label>
+			<input id="email" type="email" name="email" placeholder="Enter Your Email" required>
+			<label for="number" id="number-label">Age (optional):</label>
+			<input id="number" type="number" name="number" min="18" max="55" placeholder="Enter Your Age (only if you want to)">
+			<label for="dropdpwn" id="dropdpwn-label">How did you hear about us?</label>
+			<select id="dropdown" name="dropdown">
+				<option value="default" selected disabled>Please select an answer</option>
+				<option value="google">Google search</option>
+				<option value="facebook">Facebook page</option>
+				<option value="instagram">Instagram</option>
+				<option value="local-news">Local news</option>
+			</select>
+			<fieldset id="radio-group" name="radio-group">
+			<legend>What is your "motherhood status" now?</legend>
+				<label for="planning"><input type="radio" name="baby" id="planning" value="planning" checked>Planning to have children</label><br>
+				<label for="pregnant"><input type="radio" name="baby" id="pregnant" value="pregnant">Pregnant</label><br>
+				<label for="have-child"><input type="radio" name="baby" id="have-child" value="have-child">Already have child(ren)</label>
+				</div>
+			</fieldset>
+			<label for="dropdown2">Do you think parenting is easy?</label>
+			<select id="dropdown2" name="dropdown">
+				<option value="default" selected disabled>Please select an answer</option>
+				<option value="easy">It's a piece of cake!</option>
+				<option value="medium">Sometimes easy and sometimes not.</option>
+				<option value="hard">It's a living hell!</option>
+			</select><br>
+			<fieldset name="checkbox-group" id="checkbox-group">
+				<legend>What are the most important things for your baby?</legend>
+				<label for="crib"><input id="crib" type="checkbox" name="checkbox" value="crib">
+				Crib, cradle or bed</label><br>
+				<label for="blanket"><input id="blanket" type="checkbox" name="checkbox" value="blanket">
+				Warm and cozy blanket</label><br>
+				<label for="bottle"><input id="bottle" type="checkbox" name="checkbox" value="bottle">
+				A colorful baby bottle</label><br>
+				<label for="edu-toys"><input id="edu-toys" type="checkbox" name="checkbox" value="edu-toys">
+				Educational toys</label><br>
+				<label for="plush-toys"><input id="plush-toys" type="checkbox" name="checkbox" value="plush-toys">
+				Cuddly plush toys</label><br>
+				<label for="nightlight"><input id="nightlight" type="checkbox" name="checkbox" value="nightlight">
+				Night light with or without music</label><br>
+				<label for="pram"><input id="pram" type="checkbox" name="checkbox" value="pram">
+				Pram or kangaroo baby carrier</label><br>
+				<label for="clothes"><input id="clothes" type="checkbox" name="checkbox" value="clothes">
+				Stylish clothes</label><br>
+				<label for="accessories"><input id="accessories" type="checkbox" name="checkbox" value="accessories">
+				Fashion accessories</label><br>
+				<label for="monitor"><input id="monitor" type="checkbox" name="checkbox" value="monitor">
+				Baby monitor</label>
+			</fieldset>
+			<label for="textarea">Please tell us how we can improve our website</label>
+			<textarea id="textarea" placeholder="Enter any adittional comments and suggestions" name="textarea"></textarea><br>
+			<label for="submit"></label>
+			<input id="submit" type="submit" name="submit" value="Submit Survey">
+		</form>
+	</main>
+</body>
+</html>

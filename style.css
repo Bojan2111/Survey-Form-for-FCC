@@ -1,0 +1,89 @@
+/*
+	CSS built by Bojan Adzic aka Coder_Owl
+*/
+
+body {
+	background-image: linear-gradient(135deg, rgba(198, 20, 100, 0.6), rgba(100, 20, 198, 0.4)), url(https://cdn.shopify.com/s/files/1/0324/6207/8088/files/mother-and-baby-at-sunset2_1512x.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: scroll;
+	font-family: Helvetica;
+	font-size: 1.2rem;
+	line-height: 1.5em;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	color: #faf;
+	text-shadow: 2px 5px 5px purple;
+}
+
+#title {
+	font-size: 48px;
+	font-weight: 800;
+}
+
+#description {
+	font-size: 24px;
+	font-weight: 600;
+	width: 70%;
+	max-width: 100%;
+	margin: 0 auto 1.5em auto;
+}
+
+#survey-form {
+	display: block;
+	width: 600px;
+	max-width: 100%;
+	margin: auto;
+	background-color: purple;
+	opacity: 0.85;
+	color: white;
+	padding: 2%;
+	box-sizing: border-box;
+	resize: vertical;
+	border-radius: 10px;
+
+}
+
+#name, #email, #number, #dropdown, #dropdown2, #textarea, #submit {
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	height: 2em;
+	box-sizing: border-box;
+	resize: vertical;
+	margin-bottom: 0.5em;
+	border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-right: 0.5em;
+}
+
+fieldset {
+	vertical-align: top;
+	border: groove 1px white;
+	border-radius: 10px;
+	margin-bottom: 0.5em;
+}
+
+#radio-group {
+	display: block;
+}
+
+#textarea  {
+	height: 200px;
+}
+
+#submit {
+	background-color: #0f0;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-shadow: 2px 2px 5px #f0f;
+  cursor: pointer;
+}
